@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "skills": {
+    "baoyu-image-gen": {
+      "source": "jimliu/baoyu-skills",
+      "sourceType": "github",
+      "skillPath": "skills/baoyu-image-gen/SKILL.md",
+      "computedHash": "e0418d94172e8a652db56cb22cbae54b5047091c460dcfc4814cd0fa99bea063"
+    },
+    "baoyu-infographic": {
+      "source": "jimliu/baoyu-skills",
+      "sourceType": "github",
+      "skillPath": "skills/baoyu-infographic/SKILL.md",
+      "computedHash": "ca10530d4b44ad50b708ac7e82a53967437772a8d4a5455337d9ae621874c040"
+    },
+    "baoyu-markdown-to-html": {
+      "source": "jimliu/baoyu-skills",
+      "sourceType": "github",
+      "skillPath": "skills/baoyu-markdown-to-html/SKILL.md",
+      "computedHash": "4ce18a657644ae75c5bb0fd85104eb0c7a7e975c6119dd77bc226933c4112a2e"
+    },
+    "baoyu-translate": {
+      "source": "jimliu/baoyu-skills",
+      "sourceType": "github",
+      "skillPath": "skills/baoyu-translate/SKILL.md",
+      "computedHash": "d718f45416290198a74e0ad5336faa16557d7f454309cfc53a3d92411ddf62bd"
+    },
+    "baoyu-url-to-markdown": {
+      "source": "jimliu/baoyu-skills",
+      "sourceType": "github",
+      "skillPath": "skills/baoyu-url-to-markdown/SKILL.md",
+      "computedHash": "ca98ae07f45f5a5ae8976845a2df3f3be307181e280b0c51dd04fe4cd32699b6"
+    },
+    "enhance-prompt": {
+      "source": "google-labs-code/stitch-skills",
+      "sourceType": "github",
+      "skillPath": "plugins/stitch-utilities/skills/enhance-prompt/SKILL.md",
+      "computedHash": "28c47bcbc0e8d81f48fbbbe41d227efe4018a32c5d4674b0d052a70d215072d3"
+    },
+    "github-deep-research": {
+      "source": "bytedance/deer-flow",
+      "sourceType": "github",
+      "skillPath": "skills/public/github-deep-research/SKILL.md",
+      "computedHash": "f58cb23e922082c682dab353cd0b521164a987cb89c32ee23799e31f79953cd8"
+    },
+    "humanizer-zh": {
+      "source": "op7418/humanizer-zh",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "ad6b2b1f1433413c64f6403dc322d950da175a058f494291bd4399e77cb587c7"
+    },
+    "image-generation": {
+      "source": "bytedance/deer-flow",
+      "sourceType": "github",
+      "skillPath": "skills/public/image-generation/SKILL.md",
+      "computedHash": "52d2c5c142368c20aeeb0cf43c735100d1f4a1b60a0aedbdd8cf330caebe0280"
+    },
+    "letta-api-client": {
+      "source": "letta-ai/skills",
+      "sourceType": "github",
+      "skillPath": "letta/letta-api-client/SKILL.md",
+      "computedHash": "abf144c67769895280ff2f9b2f168720c1d223f54f1fc38979578d6e4558df6e"
+    },
+    "ppt-generation": {
+      "source": "bytedance/deer-flow",
+      "sourceType": "github",
+      "skillPath": "skills/public/ppt-generation/SKILL.md",
+      "computedHash": "1f95cca84b78975d6552da8e19c31fcb610ac80acc16f29c96c57bc6bc4d2173"
+    },
+    "web-access": {
+      "source": "eze-is/web-access",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "eea54461d11015f68b2e2c5865fe41d627b8d21f1a058b7ca5550f69f3d5922f"
+    },
+    "wrangler": {
+      "source": "cloudflare/skills",
+      "sourceType": "github",
+      "skillPath": "skills/wrangler/SKILL.md",
+      "computedHash": "d2094f7a5a76414fc0cd365fd8ddba3258c2135a1d468b78213c0fa02c309b9b"
+    }
+  }
+}

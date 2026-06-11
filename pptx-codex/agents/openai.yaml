@@ -1,0 +1,5 @@
+interface:
+  display_name: "PPTX for Codex"
+  short_description: "Build, inspect, and revise PowerPoint decks"
+  brand_color: "#1E2761"
+  default_prompt: "Use $pptx-codex to create or revise a PowerPoint deck from my notes."
