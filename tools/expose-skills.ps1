@@ -1,4 +1,4 @@
-# expose-skills.ps1
+# tools/expose-skills.ps1
 # Expose skills under .agents/skills/ to the root of the shared folder for compatibility
 
 $ErrorActionPreference = "Stop"
@@ -19,10 +19,8 @@ foreach ($Skill in $Skills) {
     if (Test-Path -Path $RootPath) {
         $Item = Get-Item -Path $RootPath
         if ($Item.Attributes -match "ReparsePoint") {
-            # Already link, skip
             continue
         } else {
-            # Physical directory exists, skip to avoid overwrite
             Write-Host "Physical directory already exists for $($Skill.Name). Skipping." -ForegroundColor Yellow
             continue
         }

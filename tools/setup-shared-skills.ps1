@@ -1,4 +1,4 @@
-# setup-shared-skills.ps1
+# tools/setup-shared-skills.ps1
 # Setup shared skills directory for AI clients (Codex, Claude, Antigravity)
 
 $ErrorActionPreference = "Stop"

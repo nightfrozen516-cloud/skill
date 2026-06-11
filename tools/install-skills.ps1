@@ -1,4 +1,4 @@
-# install-skills.ps1
+# tools/install-skills.ps1
 # Batch install requested and recommended skills
 
 $SkillsToInstall = @(
