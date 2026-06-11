@@ -1,8 +1,9 @@
 # tools/expose-skills.ps1
-# Expose skills under .agents/skills/ to the root of the shared folder for compatibility
+# Expose skills under .agents/skills/ dynamically to the root of the shared folder
 
 $ErrorActionPreference = "Stop"
-$SharedDir = "C:\Users\12788\.skills_shared"
+$UserProfile = $env:USERPROFILE
+$SharedDir = Join-Path -Path $UserProfile -ChildPath ".skills_shared"
 $AgentsSkillsDir = Join-Path -Path $SharedDir -ChildPath ".agents\skills"
 
 if (-not (Test-Path -Path $AgentsSkillsDir)) {

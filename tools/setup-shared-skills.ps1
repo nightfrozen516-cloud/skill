@@ -1,14 +1,17 @@
 # tools/setup-shared-skills.ps1
-# Setup shared skills directory for AI clients (Codex, Claude, Antigravity)
+# Setup shared skills directory dynamically for any user on Windows
 
 $ErrorActionPreference = "Stop"
 
-$SharedDir = "C:\Users\12788\.skills_shared"
+# Use environmental variable to dynamically get current user profile path
+$UserProfile = $env:USERPROFILE
+$SharedDir = Join-Path -Path $UserProfile -ChildPath ".skills_shared"
+
 $TargetPaths = @(
-    "C:\Users\12788\.codex\skills",
-    "C:\Users\12788\.claude\skills",
-    "C:\Users\12788\.gemini\antigravity\skills",
-    "C:\Users\12788\.gemini\config\skills"
+    Join-Path -Path $UserProfile -ChildPath ".codex\skills",
+    Join-Path -Path $UserProfile -ChildPath ".claude\skills",
+    Join-Path -Path $UserProfile -ChildPath ".gemini\antigravity\skills",
+    Join-Path -Path $UserProfile -ChildPath ".gemini\config\skills"
 )
 
 Write-Host "========== Starting Shared Skills Setup ==========" -ForegroundColor Cyan

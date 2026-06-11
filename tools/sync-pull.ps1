@@ -1,8 +1,9 @@
 # tools/sync-pull.ps1
-# Automatically pull latest skills from GitHub
+# Automatically pull latest skills from GitHub dynamically
 
 $ErrorActionPreference = "Stop"
-$SharedDir = "C:\Users\12788\.skills_shared"
+$UserProfile = $env:USERPROFILE
+$SharedDir = Join-Path -Path $UserProfile -ChildPath ".skills_shared"
 
 Write-Host "========== Starting Git Pull ==========" -ForegroundColor Cyan
 Set-Location -Path $SharedDir
