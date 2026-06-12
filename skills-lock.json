@@ -31,6 +31,42 @@
       "skillPath": "skills/baoyu-url-to-markdown/SKILL.md",
       "computedHash": "ca98ae07f45f5a5ae8976845a2df3f3be307181e280b0c51dd04fe4cd32699b6"
     },
+    "cheat-bump": {
+      "source": "XBuilderLAB/cheat-on-content",
+      "sourceType": "github",
+      "skillPath": "skills/cheat-bump/SKILL.md",
+      "computedHash": "b43992b41c6b712789eb46a066df603c48e08da0df1035b0b718771efc6476b3"
+    },
+    "cheat-init": {
+      "source": "XBuilderLAB/cheat-on-content",
+      "sourceType": "github",
+      "skillPath": "skills/cheat-init/SKILL.md",
+      "computedHash": "dff2c7dfe49bdab53cc3f84e8cec2ec4c20ec6ea0b2d96e4e7a7cf26aeee0cc7"
+    },
+    "cheat-score": {
+      "source": "XBuilderLAB/cheat-on-content",
+      "sourceType": "github",
+      "skillPath": "skills/cheat-score/SKILL.md",
+      "computedHash": "0d01579f97a1908dc2c18bf1c1517ea0af2a7c9a25131c8bb8280ab74e4e47fe"
+    },
+    "cheat-score-blind": {
+      "source": "XBuilderLAB/cheat-on-content",
+      "sourceType": "github",
+      "skillPath": "skills/cheat-score-blind/SKILL.md",
+      "computedHash": "402c95b9a05b62eeb64e2b5f5ef632d185d3c2632935d2d41befaea347cc0573"
+    },
+    "cheat-shoot": {
+      "source": "XBuilderLAB/cheat-on-content",
+      "sourceType": "github",
+      "skillPath": "skills/cheat-shoot/SKILL.md",
+      "computedHash": "791726c6bb8d02265208f517e0405e6d2be40d339966dc2cbd282a98e3686f09"
+    },
+    "cheat-status": {
+      "source": "XBuilderLAB/cheat-on-content",
+      "sourceType": "github",
+      "skillPath": "skills/cheat-status/SKILL.md",
+      "computedHash": "b7799d48a385e3cb08887638bf333e151de7b9e745a638a0ffc12c2e177a2295"
+    },
     "enhance-prompt": {
       "source": "google-labs-code/stitch-skills",
       "sourceType": "github",
@@ -60,6 +96,42 @@
       "sourceType": "github",
       "skillPath": "letta/letta-api-client/SKILL.md",
       "computedHash": "abf144c67769895280ff2f9b2f168720c1d223f54f1fc38979578d6e4558df6e"
+    },
+    "money-find": {
+      "source": "XBuilderLAB/cheat-on-money",
+      "sourceType": "github",
+      "skillPath": "skills/money-find/SKILL.md",
+      "computedHash": "793f5d7a22d9d4b1a1ddef586f64803de0cefdcd183298d5130996268ab6d3e1"
+    },
+    "money-init": {
+      "source": "XBuilderLAB/cheat-on-money",
+      "sourceType": "github",
+      "skillPath": "skills/money-init/SKILL.md",
+      "computedHash": "95fb73d982e31b596e3201321edd8b0247e72982284bb3526578360bf542fafe"
+    },
+    "money-plan": {
+      "source": "XBuilderLAB/cheat-on-money",
+      "sourceType": "github",
+      "skillPath": "skills/money-plan/SKILL.md",
+      "computedHash": "e6033f0146e3f6a58a6252e15da8bf0833e438541fdbb5dbfabf4f0c52f81440"
+    },
+    "money-retro": {
+      "source": "XBuilderLAB/cheat-on-money",
+      "sourceType": "github",
+      "skillPath": "skills/money-retro/SKILL.md",
+      "computedHash": "513ec66dea89437cdab7738a35bce0dd67d44aef73eaee6e9381ef301cf4c856"
+    },
+    "money-status": {
+      "source": "XBuilderLAB/cheat-on-money",
+      "sourceType": "github",
+      "skillPath": "skills/money-status/SKILL.md",
+      "computedHash": "825933e9614dc863fc0f148b68794ce36de8c5e77cacdc6a7c62fd6534d20463"
+    },
+    "money-verify": {
+      "source": "XBuilderLAB/cheat-on-money",
+      "sourceType": "github",
+      "skillPath": "skills/money-verify/SKILL.md",
+      "computedHash": "6613ceb0e4aa9d5ec13784dc5231fc89c10c9e8a9302329f3aa6a0086b54825e"
     },
     "ppt-generation": {
       "source": "bytedance/deer-flow",
